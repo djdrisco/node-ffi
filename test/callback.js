@@ -2,8 +2,9 @@
 var assert = require('assert')
   , ref = require('ref')
   , ffi = require('../')
-  , int = ref.types.int
-  , bindings = require('bindings')({ module_root: __dirname, bindings: 'ffi_tests' })
+  , int = ref.types.int;
+
+//var bindings = require('bindings')({ module_root: __dirname, bindings: 'ffi_tests' });
 
 describe('Callback', function () {
 

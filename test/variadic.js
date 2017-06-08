@@ -1,9 +1,10 @@
 
 var assert = require('assert')
   , ref = require('ref')
-  , ffi = require('../')
-  , bindings = require('bindings')({ module_root: __dirname, bindings: 'ffi_tests' })
-  , sprintfPtr = bindings.sprintf
+  , ffi = require('../');
+
+//  var bindings = require('bindings')({ module_root: __dirname, bindings: 'ffi_tests' });
+//  var sprintfPtr = bindings.sprintf;
 
 describe('variadic arguments', function () {
 

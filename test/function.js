@@ -1,8 +1,9 @@
 
 var assert = require('assert')
   , ref = require('ref')
-  , ffi = require('../')
-  , bindings = require('bindings')({ module_root: __dirname, bindings: 'ffi_tests' })
+  , ffi = require('../');
+
+//var bindings = require('bindings')({ module_root: __dirname, bindings: 'ffi_tests' });
 
 describe('Function "type"', function () {
 

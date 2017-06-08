@@ -12,15 +12,15 @@
   },
   "main": "./lib/ffi",
   "dependencies": {
-    "bindings": "*",
-    "debug": "*",
-    "ref": "*",
-    "ref-struct": "*"
+    "bindings": "~1.2.0",
+    "debug": "~0.8.0",
+    "ref": "git+https://github.com/djdrisco/ref.git#just0.2.0",
+    "ref-struct": "git+https://github.com/djdrisco/ref-struct.git#justv0.0.5"
   },
   "devDependencies": {
     "expect.js": "*",
-    "mocha": "*",
-    "ref-array": "*"
+    "mocha": "^2.2.5",
+    "ref-array": "git+https://github.com/djdrisco/ref-array.git#justv1.1.0"
   },
   "scripts": {
     "test": "node-gyp rebuild --directory test && mocha -gc --reporter spec"

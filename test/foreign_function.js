@@ -3,8 +3,9 @@ var assert = require('assert')
   , ref = require('ref')
   , Array = require('ref-array')
   , Struct = require('ref-struct')
-  , ffi = require('../')
-  , bindings = require('bindings')({ module_root: __dirname, bindings: 'ffi_tests' })
+  , ffi = require('../');
+
+//var bindings = require('bindings')({ module_root: __dirname, bindings: 'ffi_tests' });
 
 describe('ForeignFunction', function () {
 
